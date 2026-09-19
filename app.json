@@ -2,6 +2,7 @@
   "expo": {
     "name": "eas-update-demo",
     "slug": "eas-update-demo",
+    "owner": "alvin-yanson-organization",
     "scheme": "easupdatedemo",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -23,6 +24,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "14508039-cfcf-4cc2-bdfa-2d4efb46b6cf"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "fingerprint"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/14508039-cfcf-4cc2-bdfa-2d4efb46b6cf"
     }
   }
 }
